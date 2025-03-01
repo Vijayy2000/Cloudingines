@@ -19,6 +19,7 @@ function CarouselPage() {
             <p>Unlock insights with our cutting-edge data analytics services.</p>
           </Carousel.Caption>
         </Carousel.Item> */}
+        </Carousel.Item> */}
 
         {/* Slide 2 */}
         <Carousel.Item>
