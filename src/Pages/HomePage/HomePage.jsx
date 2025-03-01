@@ -18,7 +18,7 @@ function CarouselPage() {
             <h3>Big Data Solutions</h3>
             <p>Unlock insights with our cutting-edge data analytics services.</p>
           </Carousel.Caption>
-        </Carousel.Item> */}
+        </Carousel.Item> 
         </Carousel.Item> */}
 
         {/* Slide 2 */}
