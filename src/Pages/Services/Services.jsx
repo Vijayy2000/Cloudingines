@@ -27,7 +27,7 @@ const Services = () => {
                 <span style={{ color: "darkblue" }}>Team Augmentation</span>
               </Col>
               <br />
-              Finding specialized cloud-IT, big data, and BI specialists, particularly for smaller companies that only require their contribution on a project basis, may be difficult especially upon short-notice. CloudIngest is here to provide temporary and <span style={{color:"darkblue" , fontWeight:"600"}}>flexible staff augmentation solutions</span> that will help your team drive existing projects to completion at a fraction of the cost and administrative hassle of adding permanent employees to your team. We will present you with several staff augmentation options that vary in the ratio of<span style={{color:"darkblue" , fontWeight:"600"}}> Managers, Engineers, and QA specialists</span> your team needs.  
+              Finding specialized cloud-IT, big data, and BI specialists, particularly for smaller companies that only require their contribution on a project basis, may be difficult especially upon short-notice. Cloudingines is here to provide temporary and <span style={{color:"darkblue" , fontWeight:"600"}}>flexible staff augmentation solutions</span> that will help your team drive existing projects to completion at a fraction of the cost and administrative hassle of adding permanent employees to your team. We will present you with several staff augmentation options that vary in the ratio of<span style={{color:"darkblue" , fontWeight:"600"}}> Managers, Engineers, and QA specialists</span> your team needs.  
             </p>
           </Col>
            {/* Image Column */}

@@ -8,12 +8,12 @@
 //         <p>
 //           <strong>Who We Are</strong>
 //           <br />
-//           CloudIngest is a tech firm based in Milton, GA, specializing in Big Data, Cloud Services, Digital Transformations, Mobility Solutions, NLP, Software Development, and Integration. Our team brings together experts in tech, management, and business, ensuring a comprehensive approach to solving client challenges.
+//           Cloudingines is a tech firm based in Milton, GA, specializing in Big Data, Cloud Services, Digital Transformations, Mobility Solutions, NLP, Software Development, and Integration. Our team brings together experts in tech, management, and business, ensuring a comprehensive approach to solving client challenges.
 //         </p>
 //         <p>
 //           <strong>What We Do</strong>
 //           <br />
-//           We provide flexible Software Development & Integration services, aligning our work with your business goals. Our team collaborates closely with clients, offering tailored solutions across Big Data, Cloud, and more. At CloudIngest, client satisfaction and long-term partnerships are at the heart of everything we do.
+//           We provide flexible Software Development & Integration services, aligning our work with your business goals. Our team collaborates closely with clients, offering tailored solutions across Big Data, Cloud, and more. At Cloudingines, client satisfaction and long-term partnerships are at the heart of everything we do.
 //         </p>
 //       </div>
 //     </section>
@@ -57,7 +57,7 @@ const AboutUs = () => {
                 {/* <span style={{ color: "darkblue" }}>What We Do</span> */}
               </Col>
               <br />
-              CloudIngest is a full-service tech software firm based in Milton, GA.Our <span style={{color:"darkblue", fontWeight:"500"}}>expert technical team</span>  maintains strong core competencies in Big Data, Business Intelligence & Analytics, Cloud Services, Digital Transformations, Mobility Solutions, Natural Language Processing, APIs, Software Development & Integration, as well as Staffing and Staff Augmentation. 
+              Cloudingines is a full-service tech software firm based in Milton, GA.Our <span style={{color:"darkblue", fontWeight:"500"}}>expert technical team</span>  maintains strong core competencies in Big Data, Business Intelligence & Analytics, Cloud Services, Digital Transformations, Mobility Solutions, Natural Language Processing, APIs, Software Development & Integration, as well as Staffing and Staff Augmentation. 
             </p>
           </Col>
         </Row>

@@ -13,10 +13,10 @@ function CardList() {
       <div className="row">
         {/* Services Array */}
         {[ 
-          { img: BigData, title: "BIG DATA", text: "Tackle Big Problems with Big Data at CloudIngest. We provide data platforms as a service to help you discover novel patterns and fascinating associations. Let us help you utilize your data to make better decisions." },
+          { img: BigData, title: "BIG DATA", text: "Tackle Big Problems with Big Data at Cloudingines. We provide data platforms as a service to help you discover novel patterns and fascinating associations. Let us help you utilize your data to make better decisions." },
           { img: Chess, title: "BUSINESS INTELLIGENCE", text: "We can help you transform your raw data into tactical insights using flexible integrations, workflows, and graph analytics to generate real-time custom reports that put you at an advantage." },
           { img: Staff, title: "STAFF AUGMENTATION", text: "Outsource the entirety of your development with us or integrate our premiere IT-Team with your existing staff! We offer flexible work arrangements, including telecommunication, and guaranteed customer satisfaction." },
-          { img: mob, title: "MOBILITY", text: "Enable collaboration through secure mobility solutions! CloudIngest will help encrypt and back up your data, providing structured adaptability to changes to the market and your internal organization." },
+          { img: mob, title: "MOBILITY", text: "Enable collaboration through secure mobility solutions! Cloudingines will help encrypt and back up your data, providing structured adaptability to changes to the market and your internal organization." },
           { img: cloud, title: "CLOUD SERVICES", text: "With 24/7 on-demand availability and a pay-as-you-go model that crushes up-front costs, Cloud Services is a great solution for anyone looking for high-computing power even during hours of peak demand." },
           { img: soft, title: "SOFTWARE DEVELOPMENT", text: "Outsource to a full-stack development firm from production conception to solution integration. Quality assurance is included! We are experts in SQL, Java, PHP, and Python." }
         ].map((service, index) => (

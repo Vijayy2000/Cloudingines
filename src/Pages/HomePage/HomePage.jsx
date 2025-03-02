@@ -23,13 +23,12 @@ function CarouselPage() {
         </Carousel.Item> */}
 
         {/* Slide 2 */}
-        <Carousel.Item>
+        {/* <Carousel.Item>
           <img className="d-block w-100 carousel-img" src={image1} alt="Business Intelligence" />
           <Carousel.Caption>
-            {/* <h3>Business Intelligence</h3>
-            <p>Turn data into actionable insights with our BI tools.</p> */}
+           
           </Carousel.Caption>
-        </Carousel.Item>
+        </Carousel.Item> */}
 
 
         {/* Slide 3 */}
