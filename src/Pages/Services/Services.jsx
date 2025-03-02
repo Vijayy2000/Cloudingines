@@ -35,7 +35,7 @@ const Services = () => {
             <img
               src={Logo}
               alt="About Us"
-              className="img-fluid "
+              className="img-fluid"
               style={{ maxWidth: "100%", height: "auto" }}
             />
           </Col>

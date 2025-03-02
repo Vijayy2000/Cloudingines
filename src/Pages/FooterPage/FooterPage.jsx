@@ -9,7 +9,8 @@ const FooterPage = () => {
       
       {/* Logo Section */}
       <Col xs={12} md={4} className="d-flex justify-content-center align-items-center mb-3">
-          <img src={Logo} alt="Logo" className="img-fluid" style={{ maxWidth: "54%", height: "auto" }} />
+          {/* <img src={} alt="Logo" className="img-fluid" style={{ maxWidth: "54%", height: "auto" }} /> */}
+          <h2 style={{color:'blue', marginTop:'30px', fontWeight:'bold'}}>CLOUDINGINES</h2>
         </Col>
 
       {/* Company Links - Centered on Mobile */}

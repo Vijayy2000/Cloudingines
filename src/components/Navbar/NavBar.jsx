@@ -14,7 +14,8 @@ const NavBar = () => {
 >
 
       <Col xs={6} md={3} className="d-flex align-items-center">
-        <img src={Logo} alt="logo" className="logo ms-3" />
+        {/* <img src={} alt="logo" className="logo ms-3" /> */}
+        <h2 style={{color:'blue', paddingTop:'15px', paddingLeft:'15px', fontWeight:'bold'}}>CLOUDINGINES</h2>
       </Col>
 
       {/* Desktop Menu */}
