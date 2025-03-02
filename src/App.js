@@ -11,13 +11,16 @@ import CarouselPage from "./Pages/HomePage/HomePage";
 
 function App() {
   return (
-    <div>
-      <NavBar />
+    <div >
+      <NavBar style={{backgroundColor:'rgb(179, 217, 255,0.2)'}} />
 
-      <section id="home">
+      <section id="home" style={{backgroundColor:'rgb(179, 217, 255,0.2)'}}>
         <CarouselPage />
       </section>
-      <CardList />
+      <section style={{backgroundColor:'rgb(179, 217, 255,0.2)'}} >
+      <CardList  />
+      </section>
+      
 
       <section id="about">
         <AboutUs />

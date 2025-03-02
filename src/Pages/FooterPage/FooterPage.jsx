@@ -1,56 +1,39 @@
 import React from "react";
 import { Row, Col } from "reactstrap";
-import './Footerpage.css'; 
+import "./Footerpage.css";
 import Logo from "../../assets/Images/Logo.png";
 
 const FooterPage = () => {
   return (
-    <Row
-      className="d-flex flex-row justify-content-around py-5"
-      style={{ backgroundColor: "rgb(179, 217, 255,0.2)" }}
-    >
-      <Col md={2} className="d-flex flex-column p-5">
-        <img src={Logo} alt="Logo" width="200px" height="100px" />
-      </Col>
-      <Col md={2}>
-        <Col className="fs-3 mb-3" style={{ color: "#4da6ff" }}>
-          Company
+    <Row className="footer-container d-flex flex-md-row flex-column justify-content-around align-items-center py-5">
+      
+      {/* Logo Section */}
+      <Col xs={12} md={4} className="d-flex justify-content-center align-items-center mb-3">
+          <img src={Logo} alt="Logo" className="img-fluid" style={{ maxWidth: "54%", height: "auto" }} />
         </Col>
+
+      {/* Company Links - Centered on Mobile */}
+      <Col xs={12} md={2} className="company-links text-center text-md-start mb-3 mb-md-0">
+        <Col className="fs-3 mb-3 footer-title">Company</Col>
         <p className="social-icon">About Us</p>
         <p className="social-icon">Our Team</p>
         <p className="social-icon">Our Blog</p>
         <p className="social-icon">Careers</p>
       </Col>
 
-      <Col md={5}>
-        <Col className="fs-3 mb-5" style={{ color: "#4da6ff" }}>
-          Follow Us
-        </Col>
-
-        <Col className="d-flex flex-row justify-content-around">
-          <Col md={1} className="fs-2">
-            <i className="fa-brands fa-x-twitter social-icon"></i>
-          </Col>
-
-          <Col md={1} className="fs-2">
-            <i className="fa-brands fa-instagram social-icon"></i>
-          </Col>
-          <Col md={1} className="fs-2">
-            <i className="fa-brands fa-facebook social-icon"></i>
-          </Col>
-
-          <Col md={1} className="fs-2">
-            <i className="fa-brands fa-youtube social-icon"></i>
-          </Col>
-          <Col md={1} className="fs-2">
-            <i className="fa-brands fa-linkedin social-icon"></i>
-          </Col>
-          <Col md={1} className="fs-2">
-          
-          
-          <i class="fa-solid fa-envelope social-icon"></i></Col>
+      {/* Social Media Icons */}
+      <Col xs={12} md={5} className="text-center text-md-start">
+        <Col className="fs-3 mb-4 footer-title">Follow Us</Col>
+        <Col className="d-flex justify-content-center justify-content-md-between gap-3" style={{fontSize:'25px'}}>
+          <i className="fa-brands fa-x-twitter social-icon"></i>
+          <i className="fa-brands fa-instagram social-icon"></i>
+          <i className="fa-brands fa-facebook social-icon"></i>
+          <i className="fa-brands fa-youtube social-icon"></i>
+          <i className="fa-brands fa-linkedin social-icon"></i>
+          <i className="fa-solid fa-envelope social-icon"></i>
         </Col>
       </Col>
+
     </Row>
   );
 };

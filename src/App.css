@@ -22,3 +22,6 @@
 .btn-custom:hover {
   background-color: #005bb5; /* Darker blue on hover */
 }
+body{
+  background-color: rgb(179, 217, 255,0.2);
+}

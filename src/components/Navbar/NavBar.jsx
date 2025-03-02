@@ -1,28 +1,46 @@
-import React from "react";
+import React, { useState } from "react";
 import { Row, Col } from "reactstrap";
+import { FaBars, FaTimes } from "react-icons/fa";
+import "./Navbar.css";
 import Logo from "../../assets/Images/Logo.png";
 
 const NavBar = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
   return (
-    <Row className="d-flex flex-row justify-content-start p-3" style={{ backgroundColor: "rgb(179, 217, 255, 0.8)" ,}}>
-      <Col md={3}>
-        <img src={Logo} alt="logo" width="100px" height="60px" className="ms-5" />
+    <Row
+  className="navbar-container d-flex align-items-center p-3"
+  style={{ marginBottom: isMobile ? "200px" : "0px" }} // Add margin when mobile menu is open
+>
+
+      <Col xs={6} md={3} className="d-flex align-items-center">
+        <img src={Logo} alt="logo" className="logo ms-3" />
       </Col>
-      <Col md={6} className="d-flex flex-row justify-content-around mt-3">
-        {/* Using a tags instead of NavLink to scroll to sections */}
-        <a href="#home" className="nav-link">
-          Home
-        </a>
-        <a href="#about" className="nav-link">
-          About Us
-        </a>
-        <a href="#contact" className="nav-link">
-          Contact Us
-        </a>
-        <a href="#services" className="nav-link">
-          Services
-        </a>
+
+      {/* Desktop Menu */}
+      <Col md={6} className="nav-links d-none d-md-flex justify-content-around">
+        <a href="#home" className="nav-link">Home</a>
+        <a href="#about" className="nav-link">About Us</a>
+        <a href="#contact" className="nav-link">Contact Us</a>
+        <a href="#services" className="nav-link">Services</a>
       </Col>
+
+      {/* Hamburger Menu Button (Visible only on Mobile) */}
+      <Col xs={6} className="d-flex d-md-none justify-content-end pe-3">
+        <button className="hamburger" onClick={() => setIsMobile(!isMobile)}>
+          {isMobile ? <FaTimes /> : <FaBars />}
+        </button>
+      </Col>
+
+      {/* Mobile Menu */}
+      {isMobile && (
+        <Col xs={12} className="mobile-menu">
+          <a href="#home" className="mobile-nav-link" onClick={() => setIsMobile(false)}>Home</a>
+          <a href="#about" className="mobile-nav-link" onClick={() => setIsMobile(false)}>About Us</a>
+          <a href="#contact" className="mobile-nav-link" onClick={() => setIsMobile(false)}>Contact Us</a>
+          <a href="#services" className="mobile-nav-link" onClick={() => setIsMobile(false)}>Services</a>
+        </Col>
+      )}
     </Row>
   );
 };

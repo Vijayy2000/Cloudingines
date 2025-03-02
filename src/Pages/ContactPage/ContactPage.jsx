@@ -7,100 +7,78 @@ const ContactPage = () => {
     <>
       <Row
         className="contact-page d-flex flex-row justify-content-around mx- p-5"
-        style={{ backgroundColor: "rgb(179, 217, 255,0.2)", }}
+        style={{ backgroundColor: "rgb(179, 217, 255,0.2)" }}
       >
-        <Col className="text-start fs-1 "  style={{ color: "#0059b3", fontWeight:"500" }}>Contact Us</Col>
-        <p className="text-start">Feel free to contact us for any query</p>
-        <Col md={4} className="d-flex justify-content-around ">
-          <img
-            src={Logo}
-            alt="Logo"
-            style={{  height: "auto" }}
-          />
+        <Col className="text-start fs-1" style={{ color: "#0059b3", fontWeight: "500" }}>
+          Contact Us
         </Col>
-        <Col md={5} className="">
-        <Col className="text-start px-4 fs-3">Get in Touch</Col>
-          {/* HTML Form */}
+        <p className="text-start">Feel free to contact us for any query</p>
+
+        {/* Responsive Image Section */}
+        <Col xs={12} md={4} className="d-flex justify-content-center align-items-center mb-3">
+          <img src={Logo} alt="Logo" className="img-fluid" style={{ maxWidth: "100%", height: "auto" }} />
+        </Col>
+
+        {/* Form Section */}
+        <Col xs={12} md={5}>
+          <Col className="text-start px-4 fs-3">Get in Touch</Col>
+
           <form className="p-4">
-            <div className="d-flex justify-content-between align-items-center mb-3">
-              <label htmlFor="firstName" className="">
-                First Name
-              </label>
-              <input
-                type="text"
-                id="firstName"
-                className="form-control w-75"
-                placeholder="First Name"
-                required
-              />
-            </div>
+            <Row className="mb-3">
+              <Col xs={12} md={5} className="mb-2">
+                <label htmlFor="firstName">First Name</label>
+              </Col>
+              <Col xs={12} md={7}>
+                <input type="text" id="firstName" className="form-control w-100" placeholder="First Name" required />
+              </Col>
+            </Row>
 
-            <div className="d-flex justify-content-between align-items-center mb-3">
-              <label htmlFor="lastName" className="">
-                Last Name
-              </label>
-              <input
-                type="text"
-                id="lastName"
-                className="form-control w-75"
-                placeholder="Last Name"
-                required
-              />
-            </div>
+            <Row className="mb-3">
+              <Col xs={12} md={5} className="mb-2">
+                <label htmlFor="lastName">Last Name</label>
+              </Col>
+              <Col xs={12} md={7}>
+                <input type="text" id="lastName" className="form-control w-100" placeholder="Last Name" required />
+              </Col>
+            </Row>
 
-            <div className="d-flex justify-content-between align-items-center mb-3">
-              <label htmlFor="email" className="me-3">
-                Email
-              </label>
-              <input
-                type="email"
-                id="email"
-                className="form-control w-75"
-                placeholder="Email"
-                required
-              />
-            </div>
+            <Row className="mb-3">
+              <Col xs={12} md={5} className="mb-2">
+                <label htmlFor="email">Email</label>
+              </Col>
+              <Col xs={12} md={7}>
+                <input type="email" id="email" className="form-control w-100" placeholder="Email" required />
+              </Col>
+            </Row>
 
-            <div className="d-flex justify-content-between align-items-center mb-3">
-              <label htmlFor="phone" className="me-3">
-                Phone
-              </label>
-              <input
-                type="tel"
-                id="phone"
-                className="form-control w-75"
-                placeholder="Phone"
-                required
-              />
-            </div>
+            <Row className="mb-3">
+              <Col xs={12} md={5} className="mb-2">
+                <label htmlFor="phone">Phone</label>
+              </Col>
+              <Col xs={12} md={7}>
+                <input type="tel" id="phone" className="form-control w-100" placeholder="Phone" required />
+              </Col>
+            </Row>
 
-            <div className="d-flex justify-content-between align-items-center mb-3">
-              <label htmlFor="subject" className="me-3">
-                Subject
-              </label>
-              <input
-                type="text"
-                id="subject"
-                className="form-control w-75"
-                placeholder="Subject"
-                required
-              />
-            </div>
+            <Row className="mb-3">
+              <Col xs={12} md={5} className="mb-2">
+                <label htmlFor="subject">Subject</label>
+              </Col>
+              <Col xs={12} md={7}>
+                <input type="text" id="subject" className="form-control w-100" placeholder="Subject" required />
+              </Col>
+            </Row>
 
-            <div className="d-flex justify-content-between align-items-center mb-3">
-              <label htmlFor="message" className="me-3">
-                Message
-              </label>
-              <textarea
-                id="message"
-                className="form-control w-75"
-                placeholder="Message"
-                rows="1"
-                required
-              ></textarea>
-            </div>
+            <Row className="mb-3">
+              <Col xs={12} md={5} className="mb-2">
+                <label htmlFor="message">Message</label>
+              </Col>
+              <Col xs={12} md={7}>
+                <textarea id="message" className="form-control w-100" placeholder="Message" rows="3" required></textarea>
+              </Col>
+            </Row>
 
-            <Button color="primary" className="mt-3" type="submit">
+            <Button color="primary" className="mt-3 w-100" type="submit">
               Submit
             </Button>
           </form>

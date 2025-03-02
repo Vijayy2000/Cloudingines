@@ -8,7 +8,7 @@ import soft from '../../assets/Images/Software-Dev.jpg';
 
 function CardList() {
   return (
-    <div className="container mt-36">
+    <div className="container " style={{marginTop:'50PX'}}>
       {/* <h2 className="text-center mb-4">Our Services</h2> */}
       <div className="row">
         {/* Services Array */}
