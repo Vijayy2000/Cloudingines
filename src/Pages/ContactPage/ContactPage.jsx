@@ -12,7 +12,7 @@ const ContactPage = () => {
         <Col className="text-start fs-1" style={{ color: "#0059b3", fontWeight: "500" }}>
           Contact Us
         </Col>
-        <p className="text-start">Feel free to contact us for any query</p>
+        <a className="text-start text-decoration-none text-black" href="info@cloudingines.com">info@cloudingines.com</a>
 
         {/* Responsive Image Section */}
         <Col xs={12} md={4} className="d-flex justify-content-center align-items-center mb-3">

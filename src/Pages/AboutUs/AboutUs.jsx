@@ -50,7 +50,7 @@ const AboutUs = () => {
           {/* Text Content Column */}
           <Col md={6}>
            
-            <p>
+            <div>
               <Col className=" fs-3 " style={{ color: "#0059b3" }}>
                 {" "}
                 Who We Are {" "}
@@ -58,7 +58,7 @@ const AboutUs = () => {
               </Col>
               <br />
               CloudIngest is a full-service tech software firm based in Milton, GA.Our <span style={{color:"darkblue", fontWeight:"500"}}>expert technical team</span>  maintains strong core competencies in Big Data, Business Intelligence & Analytics, Cloud Services, Digital Transformations, Mobility Solutions, Natural Language Processing, APIs, Software Development & Integration, as well as Staffing and Staff Augmentation. 
-            </p>
+            </div>
           </Col>
         </Row>
       </Row>
